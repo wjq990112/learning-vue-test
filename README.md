@@ -183,7 +183,7 @@ module.exports = {
 - `collectCoverageFrom`：用于指定测试覆盖率收集的文件，只有在这个列表里的文件的测试覆盖率才会被统计。
 - `setupFilesAfterEnv`：用于为测试环境做预设，例如引入一些与 `DOM` 相关的断言。
 - `testMatch`：用于指定测试文件，只有在这个列表里的文件才会被当成测试脚本。
-- `moduleFileExtensions`：用于指定模块文件类型，只有着了列表里的文件类型才能被识别。
+- `moduleFileExtensions`：用于指定模块文件类型，只有在列表里的文件类型才能被识别。
 - `transform`：用于指定对应类型的文件转换器，这里非 `JavaScript/TypeScript/Vue` 文件使用了 `jest-transform-stub` 进行转换，而 `Vue` 则使用 `vue-jest`，`JS/JSX/TS/TSX` 使用 `babel-jest` 转换。
 - `transformIgnorePatterns`：用于指定文件转换器需要忽略的文件。
 - `moduleNameMapper`：用于设置引入时路径的别名，这里设置引入路径是 `@` 开头的模块都到 `src` 目录下查找。
@@ -793,9 +793,9 @@ it('should render round button correctly.', () => {
 
 ## 参考资料
 
-[Jest 是一个令人愉快的 JavaScript 测试框架，专注于简洁明快。 | Jest](https://jestjs.io/zh-Hans/)
-[下一代前端开发与构建工具 | Vite](https://cn.vitejs.dev/)
-[Next generation utility-first CSS framework. | Windi CSS](https://cn.windicss.org/guide/)
-[@vue/cli-plugin-unit-jest | Haoqun Jiang](https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-unit-jest#readme)
-[Difference between mount and shallowMount in Vue test utils | Sai gowtham](https://reactgo.com/vue-testing-mount-vs-shallowmount/)
-[轻量、可靠的移动端 Vue 组件库 | Vant](https://vant-contrib.gitee.io/vant/v3/#/zh-CN/home)
+- [Jest 是一个令人愉快的 JavaScript 测试框架，专注于简洁明快。 | Jest](https://jestjs.io/zh-Hans/)
+- [下一代前端开发与构建工具 | Vite](https://cn.vitejs.dev/)
+- [Next generation utility-first CSS framework. | Windi CSS](https://cn.windicss.org/guide/)
+- [@vue/cli-plugin-unit-jest | Haoqun Jiang](https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-unit-jest#readme)
+- [Difference between mount and shallowMount in Vue test utils | Sai gowtham](https://reactgo.com/vue-testing-mount-vs-shallowmount/)
+- [轻量、可靠的移动端 Vue 组件库 | Vant](https://vant-contrib.gitee.io/vant/v3/#/zh-CN/home)
