@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render block button correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider block w-full text-dark bg-white border-gray-300 active:bg-gray-200\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`Button should render danger button correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-light bg-red-500 border-transparent active:bg-red-600\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`Button should render icon correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-dark bg-white border-gray-300 active:bg-gray-200\\"><i class=\\"iconfont inline-block icon-rocket\\"></i>
+  <!---->
+</button>"
+`;
+
+exports[`Button should render icon correctly. 2`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-dark bg-white border-gray-300 active:bg-gray-200\\"><i class=\\"iconfont inline-block animate-spin icon-sync\\"></i>
+  <!---->
+</button>"
+`;
+
+exports[`Button should render icon slot correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-dark bg-white border-gray-300 active:bg-gray-200\\"><i class=\\"iconfont icon-rocket\\"></i>
+  <!---->
+</button>"
+`;
+
+exports[`Button should render icon slot correctly. 2`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-dark bg-white border-gray-300 active:bg-gray-200\\"><i class=\\"iconfont inline-block animate-spin icon-sync\\"></i>
+  <!---->
+</button>"
+`;
+
+exports[`Button should render large button correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-20 min-h-13 px-4 text-lg tracking-widest text-dark bg-white border-gray-300 active:bg-gray-200\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`Button should render loading slot correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-dark bg-white border-gray-300 active:bg-gray-200\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`Button should render loading slot correctly. 2`] = `"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-dark bg-white border-gray-300 active:bg-gray-200\\"><i class=\\"iconfont icon-reload\\"></i><span>Custom Loading</span></button>"`;
+
+exports[`Button should render primary button correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-light bg-blue-500 border-transparent active:bg-blue-600\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`Button should render round button correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider rounded-full text-dark bg-white border-gray-300 active:bg-gray-200\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`Button should render small button correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-12 min-h-7 px-1 text-sm tracking-wide text-dark bg-white border-gray-300 active:bg-gray-200\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`Button should render success button correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-light bg-green-500 border-transparent active:bg-green-600\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`Button should render text correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-dark bg-white border-gray-300 active:bg-gray-200\\">
+  <!----><span>Custom Text</span>
+</button>"
+`;
+
+exports[`Button should render text correctly. 2`] = `"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-dark bg-white border-gray-300 active:bg-gray-200\\"><i class=\\"iconfont inline-block animate-spin icon-sync\\"></i><span class=\\"mx-0.5\\">Custom Loading</span></button>"`;
+
+exports[`Button should render warning button correctly. 1`] = `
+"<button class=\\"inline-flex justify-center items-center border rounded-md disabled:opacity-50 disabled:cursor-not-allowed min-w-16 min-h-10 px-2 text-base tracking-wider text-light bg-yellow-500 border-transparent active:bg-yellow-600\\">
+  <!---->
+  <!---->
+</button>"
+`;
